@@ -11,7 +11,7 @@ $(document).ready(function () {
             })
         })
     })
-                //animates giphys and freezes them
+               
                 (function (response) {
                     console.log(response)
                     var results = response.data;
@@ -31,3 +31,6 @@ $(document).ready(function () {
                     }}
                 )
                 })
+//code seems like is everything is good with no errors but still  not able to run
+//these codes are supposed to pull from the the giphy and displays the gifs and you can also animate and stop them.
+//only thing im missing is the rating
